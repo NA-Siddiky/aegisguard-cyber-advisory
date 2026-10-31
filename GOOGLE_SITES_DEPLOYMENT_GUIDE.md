@@ -8,7 +8,7 @@
 The University of Dhaka MPMIS 516 rubric requires your consultancy project to be presented through a **professional Google Sites website** rather than a traditional academic essay.
 
 To achieve top marks from the grading panel, you can deploy your application using two complementary methods:
-* **Method 1: Interactive Iframe Embed** (Embeds the live, dynamic React/NestJS application directly into your Google Site).
+* **Method 1: Interactive Iframe Embed** (Embeds the React advisory portal, published as a static GitHub Pages site, directly into your Google Site. The NestJS API remains local-only).
 * **Method 2: Static Structured Transfer** (Copy-pastes formatted text and high-resolution dashboard screenshots directly into Google Sites layout blocks).
 
 ---
@@ -37,20 +37,26 @@ The interactive React portal is hosted on GitHub Pages:
 
 The `Deploy advisory portal` GitHub Actions workflow rebuilds and publishes the static frontend on every push to `main`. GitHub Pages does not run the NestJS API; the portal's assessment content is bundled into the frontend.
 
-To satisfy the course submission format, embed this page in Google Sites:
+The Google Sites submission is published and publicly viewable:
+
+**https://sites.google.com/view/aegisguard-cyber-advisory**
+
+The site contains the six assessment sections and an **Interactive Advisory Portal** page with the GitHub Pages portal embedded. Submit the Google Sites URL above to Google Classroom; the GitHub Pages URL alone does not meet the stated submission method.
+
+To recreate or update the embed:
 
 1. Open the group's Google Sites editor and add an **Interactive Advisory Portal** page.
 2. Select **Insert → Embed → By URL** and enter `https://na-siddiky.github.io/aegisguard-cyber-advisory/`.
 3. Insert the preview, resize it to full width, and use **Embed Mode** in the portal if desired.
-4. Publish the Google Site and submit that published Google Sites URL to Google Classroom. The GitHub Pages URL alone does not meet the stated submission method.
+4. Republish the Google Site after making changes and verify the public URL.
 
 ---
 
 ## 4. Method 2: Static Transfer & Screenshot Checklist
 
-If you prefer to populate Google Sites using standard text blocks and image cards, copy the pre-formatted text from [`CONSULTANCY_REPORT_MPMIS516.md`](./CONSULTANCY_REPORT_MPMIS516.md) and capture screenshots from your local portal (`http://localhost:5173`):
+The published Google Site uses structured text sections. For optional supporting screenshots, copy the pre-formatted text from [`CONSULTANCY_REPORT_MPMIS516.md`](./CONSULTANCY_REPORT_MPMIS516.md) and capture screenshots from the live portal at `https://na-siddiky.github.io/aegisguard-cyber-advisory/`:
 
-| Page on Google Sites | Text to Copy from `CONSULTANCY_REPORT_MPMIS516.md` | Screenshot to Capture from Local App (`localhost:5173`) |
+| Page on Google Sites | Text to Copy from `CONSULTANCY_REPORT_MPMIS516.md` | Optional screenshot from the live portal |
 | :--- | :--- | :--- |
 | **Home / Firm Identity** | Section 1: Firm Name, Tagline, About Us, Capabilities | Hero banner & Advisory practice cards on the **Part 1** tab |
 | **Part 1: Org Profile** | Section 2: Nexor Profile, Systems, Processes, Crown Jewels | Crown Jewels callout cards |
@@ -74,4 +80,5 @@ Before submitting your Google Sites link to Google Classroom, ensure all items a
 - [x] **Part 5:** Administrative, Technical, and Physical controls with a proposed RBAC/approval matrix, mapped to scenario threats and framework references.
 - [x] **Part 6:** Strategic multi-year roadmap prioritized by business risk, partitioned into 0-6m, 6-12m, and 12-24m horizons, detailing CIA resilience impact.
 - [ ] **Group attribution:** Add the group's number and member names/IDs where required by the course.
-- [ ] **Submission protocol:** Publish the Google Site with the required sharing permissions and submit its URL to Google Classroom. This Google-account action remains manual.
+- [x] **Site publication:** Published and verified as publicly viewable at [AegisGuard Cyber Advisory](https://sites.google.com/view/aegisguard-cyber-advisory).
+- [ ] **Submission protocol:** Submit the published Google Sites URL to Google Classroom. Add the group's number and member attribution before final submission.

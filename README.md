@@ -86,11 +86,9 @@ GitHub Pages hosts the static frontend only. The site content is bundled at buil
 
 The assessment instructions require a **published Google Sites website**. Use GitHub Pages as the interactive portal host, embed that portal in your Google Site, and submit the published **Google Sites URL** to Google Classroom—not the GitHub Pages URL alone.
 
-1. In Google Sites, open the editor and select **Insert → Embed → By URL**.
-2. Enter `https://na-siddiky.github.io/aegisguard-cyber-advisory/`, insert the preview, and resize the embed to fit the page.
-3. Use the portal's **Embed Mode** control for a more compact view.
-4. Add report content, group attribution, and genuine MTMT evidence to the relevant Google Sites pages.
-5. Publish the Google Site and verify its sharing permissions and public link before submitting.
+**Published site:** https://sites.google.com/view/aegisguard-cyber-advisory
+
+The site is publicly viewable and includes the six assessment sections plus the embedded advisory portal. The assignment group must still add its group number/member attribution and genuine MTMT model/report evidence, then submit the Google Sites URL to Google Classroom.
 
 ---
 
@@ -112,5 +110,5 @@ The assessment instructions require a **published Google Sites website**. Use Gi
 - No MTMT source model or generated-report screenshots were supplied. Add genuine evidence after creating and reviewing the model in Microsoft Threat Modeling Tool.
 - The NIST scores use an internal 1–5 discussion scale. NIST CSF 2.0 does not prescribe these scores; they are not Implementation Tiers, certification, or an audit opinion.
 - Add the group's number and member attribution where required by the course before final submission.
-- The Google Sites publication step requires access to the group's Google account and has not been automated by this repository.
+- The Google Site is published and publicly viewable. Classroom submission, group attribution, and authentic MTMT evidence remain manual assessment-group actions.
 - The local-only API dependency graph currently reports 7 production dependency advisories (3 high, 4 moderate) with `npm audit --omit=dev`. The API is not deployed to GitHub Pages; do not expose it publicly until those dependencies are remediated.
